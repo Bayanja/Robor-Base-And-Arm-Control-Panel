@@ -1,4 +1,4 @@
-# Robor-Base-And-Arm-Control-Panel
+# Robotic-Base-And-Arm-Control-Panel
 
 This is the 2nd Taske during my training at Smart Method Company 
 
