@@ -2,7 +2,7 @@
 
 This is the 2nd Taske during my training at Smart Method Company 
 
- A control panel was designed for the controlling the directions of the robot base, and i combined it with the robot arm control panel.
+ A control panel was designed for controlling the directions of the robot base, and i combined it with the robot arm control panel.
 
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/68130267/125207452-16798800-e295-11eb-9cb5-617cc1b451bd.gif)
 
