@@ -1,0 +1,97 @@
+<html>
+  
+  <head>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+   
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+<form method="post" action="connect.php" target="dummyframe">
+
+<!-- Tab links -->
+<button class="tablink" onclick="openPage('Arm', this, 'blue')">Arm Control</button>
+<button class="tablink" onclick="openPage('Base', this, 'orange')">Base Control</button>
+  <!-- Tab content -->
+  <div id="Arm" class="tabcontent">
+    
+    <h2>Motor 1</h2>
+    
+  
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV"></div>
+      <input id="slider11" name="slider1" type="range" min="-180" max="180"  step="1">
+    </div>
+    
+    <h3>Motor 2</h3>
+    
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV1"></div>
+      <input id="slider22" name="slider2" type="range" min="-180" max="180"  step="1">
+    </div>
+    
+    <h4>Motor 3</h4>
+    
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV2"></div>
+      <input id="slider33" name="slider3" type="range" min="-180" max="180" step="1">
+    </div>
+    
+    <h5>Motor 4</h5>
+    
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV3"></div>
+      <input id="slider44" name="slider4" type="range" min="-180" max="180"  step="1">
+    </div>
+    
+    
+    <h6>Motor 5</h6>
+    
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV4"></div>
+      <input id="slider55" name="slider5" type="range" min="-180" max="180" step="1">
+    </div>
+    
+    <h7>Motor 6</h7>
+    
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV5"></div>
+      <input id="slider66" name="slider6" type="range" min="-180" max="180"  step="1">
+    </div>
+    
+    <input type="button" class="button" value="Run">
+    
+    <input type="submit" class="submit" name="sv"  value="Save">
+                                                     
+   
+  </div>
+  
+  <div id="Base" class="tabcontent" >
+
+
+
+    <div class = "forward">
+        <input type="submit" value = "Forward" name ="forward"  style="font-size: 40px; background: black; color:rgba(183, 247, 207, 0.822); border-radius: 20px;" >
+    </div>
+    
+
+    <div class = "center">
+        <input type="submit" value = "Left" name = "left"  style="font-size: 40px; background: black; color:rgba(183, 247, 207, 0.822); border-radius: 20px;" >
+       <input type="submit" value = "Stop" name = "stop"  style="font-size: 40px; background: LightCoral; border-radius: 20px; color: white; margin-left: 75px; margin-right: 75px;" > 
+       <input type="submit" value = "Right" name = "right"  style="font-size: 40px; background: black; color:rgba(183, 247, 207, 0.822); border-radius: 20px;" > 
+    </div>
+
+    <div class = "backward">
+        <input type="submit" value = "Backward" name = "backward"  style="font-size: 40px; background: black; color:rgba(183, 247, 207, 0.822); border-radius: 20px;" >
+
+    </div>
+</div>  
+</form>
+
+
+  <script type="text/javascript" src="javas.js"></script> 
+
+</body>
+</html>
